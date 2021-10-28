@@ -1,0 +1,124 @@
+body{
+	background-color: gold;
+	font-family: sans-serif;
+	width: 1024px;
+	margin: auto;	    ´
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(10,10,10);
+	align-items: center;
+	height:70px;
+}
+header h1{
+	text-transform: uppercase;
+	margin:20px;
+	color:rgb(240,240,240);
+}
+header p{
+	margin-right:20px;
+}
+nav ol {
+    width: 290px;
+    height:70px;	
+    display: table;
+    table-layout: fixed;
+}
+nav li {
+    display: table-cell;	
+    text-align:center;
+    vertical-align: middle;
+
+}
+nav li a {
+    display: block;
+}
+a {
+	color:yellow;
+	
+}
+a:hover{
+	background-color:white;
+	color:black;
+}
+div{
+	background-color:White;
+	
+	float:left;
+}
+.loginpage{
+	width: 1024px;
+	text-align: center;
+	height:200px;
+	text-transform: uppercase;
+	
+}
+.indexpage{
+	width:660px;
+	height:420px;
+	display:grid;
+	grid-template-rows:min-content min-content auto;
+	
+}
+aside{
+	background-color:rgb(210,210,210);
+	height:420px;
+	width:364px;
+	float:right;	
+}
+.para1{
+	grid-column-start:1;
+	grid-column-end:3;
+	
+}
+
+div h2,h3,p,img, form{
+	margin-left:20px;
+	margin-bottom:10px;
+	}
+aside h2{margin:20px;}
+footer{
+	text-align:center;		
+}
+input, textarea, select, button {
+  
+  width : 350px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;	
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton2 {
+	background-color:#e4685d;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;	
+}
+.myButton2:hover {
+	background-color:#eb675e;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+
+
