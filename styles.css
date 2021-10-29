@@ -11,9 +11,10 @@ header{
 	background-color: rgb(10,10,10);
 	align-items: center;
 	height:70px;
+	text-transform: uppercase;
 }
 header h1{
-	text-transform: uppercase;
+	
 	margin:20px;
 	color:rgb(240,240,240);
 }
