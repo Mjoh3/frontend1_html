@@ -50,10 +50,16 @@ div{
 }
 .loginpage{
 	width: 1024px;
-	text-align: center;
-	height:200px;
-	text-transform: uppercase;
 	
+	height:240px;
+	
+	display:grid;
+	grid-template-rows: min-content auto;
+}
+.loginpage h2{
+	text-transform: uppercase;
+	margin-right:337px;
+	margin-left:357px;
 }
 .indexpage{
 	width:660px;
@@ -71,7 +77,6 @@ aside{
 .para1{
 	grid-column-start:1;
 	grid-column-end:3;
-	
 }
 
 div h2,h3,p,img, form{
@@ -80,16 +85,23 @@ div h2,h3,p,img, form{
 	}
 aside h2{margin:20px;}
 footer{
-	text-align:center;		
+	text-align:center;	
+	
 }
 input, textarea, select, button {
   
   width : 350px;
   height: 30px;
   padding: 0;
-  margin: 0;
+  margin-left:337px;
+  margin-right:337px;
+  margin-top:5px;
   box-sizing: border-box;
   
+}
+input{
+	border: 2px solid rgb(50,50,50);
+	border-radius: 4px;
 }
 .myButton {
 	background-color:#44c767;
@@ -119,6 +131,5 @@ input, textarea, select, button {
 	position:relative;
 	top:1px;
 }
-
 
 
